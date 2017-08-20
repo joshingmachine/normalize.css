@@ -44,9 +44,18 @@ section {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
 }
 
 /* Grouping content
